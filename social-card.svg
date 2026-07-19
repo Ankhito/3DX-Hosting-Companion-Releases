@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17141d"/><stop offset="1" stop-color="#2b2233"/></linearGradient><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ec78b4"/><stop offset="1" stop-color="#7665ff"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="70"/></filter></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><circle cx="970" cy="70" r="230" fill="#8b50e8" opacity=".2" filter="url(#b)"/><circle cx="160" cy="580" r="230" fill="#e4529b" opacity=".16" filter="url(#b)"/>
+  <rect x="88" y="88" width="70" height="70" rx="20" fill="url(#g)"/><text x="102" y="137" fill="white" font-family="Arial" font-size="30" font-weight="700">3H</text>
+  <text x="88" y="265" fill="white" font-family="Arial" font-size="68" font-weight="700">3DX Hosting</text><text x="88" y="345" fill="url(#g)" font-family="Arial" font-size="68" font-weight="700">Companion</text>
+  <text x="91" y="420" fill="#b9afbd" font-family="Arial" font-size="29">Host smoothly. Stay in the moment.</text>
+  <rect x="88" y="486" width="360" height="58" rx="15" fill="url(#g)"/><text x="132" y="524" fill="white" font-family="Arial" font-size="22" font-weight="700">Download for Windows</text>
+</svg>

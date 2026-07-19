@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17141d">
+  <meta name="description" content="3DX Hosting Companion is a local-first Windows toolkit for phrases, turn orders, countdowns, and lightweight hosting overlays.">
+  <meta property="og:title" content="3DX Hosting Companion">
+  <meta property="og:description" content="Host smoothly. Stay in the moment. A local-first Windows companion for 3DX hosts.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="social-card.svg">
+  <title>3DX Hosting Companion — Host smoothly</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="3DX Hosting Companion home">
+      <span class="brand-mark" aria-hidden="true"><span>3</span>H</span>
+      <span>3DX Hosting Companion</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#privacy">Privacy</a>
+      <a href="CHANGELOG.md">Patch notes</a>
+    </nav>
+    <a class="button button-quiet header-download" href="https://github.com/Ankhito/3DX-Hosting-Companion-Releases/releases/latest">Download</a>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> Windows companion · Local-first</div>
+        <h1>Host smoothly.<br><span>Stay in the moment.</span></h1>
+        <p class="hero-lead">Phrases, turn orders, skip countdowns, and lightweight overlays—built to keep 3DX hosts organized without modifying the game.</p>
+        <div class="hero-actions">
+          <a id="download-button" class="button button-primary" href="https://github.com/Ankhito/3DX-Hosting-Companion-Releases/releases/latest">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 20h14"/></svg>
+            Download for Windows
+          </a>
+          <a class="button button-secondary" href="#how-it-works">See how it works</a>
+        </div>
+        <div class="release-meta" aria-live="polite">
+          <span id="release-version">Latest stable release</span>
+          <span class="meta-separator">•</span>
+          <span>Windows 10/11 · x64</span>
+          <span class="meta-separator">•</span>
+          <a id="checksum-link" href="https://github.com/Ankhito/3DX-Hosting-Companion-Releases/releases/latest">SHA-256 included</a>
+        </div>
+      </div>
+
+      <div class="product-stage" aria-label="Preview of the 3DX Hosting Companion workspace">
+        <div class="stage-glow"></div>
+        <div class="app-window">
+          <div class="app-titlebar">
+            <span>3DX Hosting Companion</span>
+            <span class="testing-label">TESTING VERSION</span>
+            <div class="window-controls"><i></i><i></i><i></i></div>
+          </div>
+          <div class="app-body">
+            <aside class="mock-library">
+              <div class="mock-heading">Phrase library</div>
+              <div class="mock-search">Search phrases…</div>
+              <div class="mock-folder active"><span>›</span> Olympus</div>
+              <div class="mock-folder"><span>›</span> General</div>
+              <div class="mock-divider"></div>
+              <div class="mock-phrase selected"><b>Welcome</b><small>/me welcomes everyone…</small></div>
+              <div class="mock-phrase"><b>Board rules</b><small>Please read before playing…</small></div>
+              <div class="mock-phrase"><b>Turn ready</b><small>The next round begins…</small></div>
+            </aside>
+            <div class="mock-workspace">
+              <div class="mock-toolbar"><b>Phrase editor</b><span>Import from PhraseExpress</span></div>
+              <div class="mock-panels">
+                <div class="mock-card">
+                  <h3>Phrase content</h3>
+                  <label>Name</label><div class="mock-field">Welcome</div>
+                  <label>Message</label><div class="mock-field mock-message">/me welcomes everyone to tonight's game.</div>
+                  <label>Folder</label><div class="mock-field">Olympus <span>⌄</span></div>
+                </div>
+                <div class="mock-card behavior-card">
+                  <h3>Behavior</h3>
+                  <label>Command</label><div class="mock-field">!welcome</div>
+                  <label>Replacement</label><div class="mock-field">After space <span>⌄</span></div>
+                  <div class="mock-link">Linked outcomes ready</div>
+                </div>
+                <div class="mock-card chat-card">
+                  <h3>3DX chat preview</h3>
+                  <div class="chat-preview"><small>21:42</small><p><strong>YourName</strong> welcomes everyone to tonight's game.</p></div>
+                  <div class="mock-actions"><span>Copy</span><span>Send to 3DX</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay-card overlay-phrases"><span class="mini-title">Phrase Overlay</span><div><i>Welcome</i><i>Rules</i><i>Results ›</i></div></div>
+        <div class="overlay-card overlay-turn"><span class="mini-title">Turn / Skip</span><div class="turn-line">Ankh <b>→</b> Peach <b>→</b> Luna</div><div><i>Pause</i><i>Resume</i></div></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Product qualities">
+      <div><span>◆</span><b>External companion</b><small>No injection or game modification</small></div>
+      <div><span>◉</span><b>Local-first</b><small>Your phrases stay on your PC</small></div>
+      <div><span>✓</span><b>Verified downloads</b><small>Every installer includes SHA-256</small></div>
+      <div><span>↻</span><b>Built-in updates</b><small>Simple verified update flow</small></div>
+    </section>
+
+    <section id="features" class="section shell">
+      <div class="section-heading">
+        <div><span class="kicker">Everything within reach</span><h2>A calmer way to host.</h2></div>
+        <p>Prepare in the client, then keep only the controls you need over the game. Every surface is compact, movable, and designed around a live hosting session.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-large">
+          <div class="feature-icon violet">✦</div><h3>Phrase library that scales with you</h3>
+          <p>Organize phrases by folder, search instantly, link outcomes, import from PhraseExpress, and preview exactly how messages will read.</p>
+          <div class="folder-visual"><span class="active">Olympus <b>12</b></span><span>Game Night <b>8</b></span><span>General <b>5</b></span><div class="phrase-lines"><i></i><i></i><i></i></div></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon green">↕</div><h3>Turn order, without friction</h3>
+          <p>Add players with Enter, drag to reorder, track statuses, randomize, and send polished player or turn lists.</p>
+          <div class="player-stack"><span><b>1</b> Ankh <i>Playing</i></span><span><b>2</b> Peach <i>AFK</i></span><span><b>3</b> Luna <i>Playing</i></span></div>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon pink">⌁</div><h3>Overlays that stay out of the way</h3>
+          <p>Separate Phrase and Turn / Skip overlays remember their size, position, and opacity—and hide when another app has focus.</p>
+          <div class="overlay-visual"><span>Phrase Overlay</span><div><i>Welcome</i><i>Rules</i><i>Rolls ›</i></div></div>
+        </article>
+        <article class="feature-card feature-wide">
+          <div class="feature-icon amber">⌘</div><h3>Clicks or quickbinds. Your choice.</h3>
+          <p>Send with a button or assign global shortcuts in Quickbind Mode. Commands can also expand while you type in 3DX.</p>
+          <div class="key-row"><kbd>Ctrl</kbd><span>+</span><kbd>Shift</kbd><span>+</span><kbd>1</kbd><em>Welcome message</em></div>
+        </article>
+        <article class="feature-card feature-wide">
+          <div class="feature-icon blue">◷</div><h3>Skip countdowns that stay controlled</h3>
+          <p>Select a player, choose five or ten seconds, and send a clear countdown while the app protects the mouse sequence.</p>
+          <div class="countdown"><span>Peach skips in</span><strong>5</strong><i>4</i><i>3</i><i>2</i><i>1</i></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section workflow-section">
+      <div class="shell">
+        <div class="section-heading compact"><div><span class="kicker">Simple by design</span><h2>From setup to send in three steps.</h2></div></div>
+        <div class="steps">
+          <article><span class="step-number">01</span><div class="step-icon">▤</div><h3>Build your library</h3><p>Create folders for boards or events, add phrases, import existing PhraseExpress entries, and set optional commands.</p></article>
+          <article><span class="step-number">02</span><div class="step-icon">◫</div><h3>Place your overlays</h3><p>Open the Phrase and Turn / Skip overlays, resize them, choose opacity, and place them around your play field.</p></article>
+          <article><span class="step-number">03</span><div class="step-icon">➤</div><h3>Host without alt-tabbing</h3><p>Send phrases, turn lists, Pause or Resume messages, and countdowns while keeping the game visible.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacy" class="section shell privacy-section">
+      <div class="privacy-card">
+        <div class="privacy-copy"><span class="kicker">Local by default</span><h2>Your hosting data stays yours.</h2><p>The current testing build has no account requirement, advertising, analytics, or cloud connection. Phrases and settings live in your local application-data folder.</p><a href="https://github.com/Ankhito/3DX-Hosting-Companion-Releases/blob/main/README.md">Read release information →</a></div>
+        <div class="privacy-list"><div><span>✓</span><p><b>No game injection</b><small>Runs as a separate Windows application.</small></p></div><div><span>✓</span><p><b>No forced account</b><small>Install and use the local tools directly.</small></p></div><div><span>✓</span><p><b>Portable backups</b><small>Export your local library and settings.</small></p></div><div><span>✓</span><p><b>Transparent releases</b><small>Patch notes and checksums are public.</small></p></div></div>
+      </div>
+    </section>
+
+    <section class="section shell faq-section">
+      <div><span class="kicker">Good to know</span><h2>Before you install.</h2></div>
+      <div class="faq-list">
+        <details open><summary>Is this a 3DX mod?<span>+</span></summary><p>No. It is an external Windows companion. It does not inject into, patch, or modify 3DXChat.</p></details>
+        <details><summary>How does sending work?<span>+</span></summary><p>The app detects the visible 3DX chat input and uses brief Windows mouse, clipboard, and keyboard simulation. Your cursor is restored after sending.</p></details>
+        <details><summary>Why might Windows show a warning?<span>+</span></summary><p>Testing builds are not yet code-signed. Download only from this official release repository and verify the included SHA-256 checksum if desired.</p></details>
+        <details><summary>Does it support Venue Host mode?<span>+</span></summary><p>Venue Host is visible as a future mode but is not included in the current testing release.</p></details>
+      </div>
+    </section>
+
+    <section class="cta-section shell">
+      <div class="cta-card">
+        <div><span class="kicker">Ready when you are</span><h2>Make the next session easier.</h2><p>Download the latest Windows installer and keep the controls that matter close at hand.</p></div>
+        <div class="cta-actions"><a id="download-button-bottom" class="button button-primary" href="https://github.com/Ankhito/3DX-Hosting-Companion-Releases/releases/latest">Download latest</a><a href="CHANGELOG.md" class="text-link">Read patch notes →</a></div>
+      </div>
+    </section>
+
+    <section class="support-section">
+      <div class="shell support-inner">
+        <div class="kofi-cup" aria-hidden="true"><span>♥</span></div>
+        <div><span class="kicker">Independent development</span><h2>Enjoying the Companion?</h2><p>If it makes hosting easier, you can support continued development on Ko-fi.</p></div>
+        <a class="button kofi-button" href="https://ko-fi.com/the_ankh" target="_blank" rel="noopener">Support on Ko-fi</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <div class="brand"><span class="brand-mark"><span>3</span>H</span><span>3DX Hosting Companion</span></div>
+    <p>Independent companion software. Not affiliated with or endorsed by 3DXChat.</p>
+    <div><a href="https://github.com/Ankhito/3DX-Hosting-Companion-Releases/releases">Releases</a><a href="CHANGELOG.md">Patch notes</a><a href="https://ko-fi.com/the_ankh">Ko-fi</a></div>
+  </footer>
+</body>
+</html>
