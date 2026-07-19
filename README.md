@@ -1,6 +1,8 @@
 # 3DX Hosting Companion Releases
 
-Official public Windows installer releases for **3DX Hosting Companion**.
+Official public website and Windows installer releases for **3DX Hosting Companion**.
+
+Visit the [3DX Hosting Companion website](https://ankhito.github.io/3DX-Hosting-Companion-Releases/) for an overview, setup flow, and the latest download.
 
 Use the [latest release](../../releases/latest) to download:
 
