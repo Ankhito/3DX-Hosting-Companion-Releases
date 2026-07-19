@@ -1,5 +1,32 @@
 # Patch Notes
 
+## 0.5.0 — Optional Accounts
+Released July 19, 2026
+
+### Highlights
+
+- Added optional sign-in with Google or Discord.
+- The app remains fully usable without an account, including while offline.
+- Prepared the secure cloud foundation for future premium backup and sync features.
+
+### New
+
+- A new **Optional Companion account** section in Settings.
+- Browser-based Google and Discord sign-in, so the app never asks for either provider password.
+- Sign Out and Delete Cloud Account controls.
+- Public Privacy Policy and Terms of Use covering optional accounts and future cloud storage.
+
+### Privacy and security
+
+- Account sessions are protected for the current Windows user.
+- Local phrases, settings, turn orders, backups, and Room File sources are not uploaded by signing in.
+- Deleting a cloud account removes its online identity, sessions, and cloud backups without deleting local data.
+
+### Known limitations
+
+- Accounts are optional groundwork in this release; premium cloud backup and sync are not yet available in the Windows interface.
+- Venue Host mode is not available yet.
+
 ## 0.4.2 — Startup Crash Hotfix
 Released July 19, 2026
 
