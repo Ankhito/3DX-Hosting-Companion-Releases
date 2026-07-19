@@ -1,5 +1,23 @@
 # Patch Notes
 
+## 0.3.0 — Faster Phrase Folder Switching
+Released July 19, 2026
+
+### Highlights
+
+- Switch phrase folders directly from the Phrase Overlay without returning to the main client.
+- Added the new 3DX Hosting Companion icon throughout the app and Windows installer.
+
+### New
+
+- A compact folder menu now sits immediately beside the selected folder name in the Phrase Overlay.
+
+### Improved
+
+- Folder changes made in the overlay immediately update its phrase buttons and stay synchronized with the client.
+- The most recently selected folder is restored the next time the app starts.
+- Application branding is now easier to recognize in Windows, the taskbar, and Installed Apps.
+
 ## 0.2.1 — Update Compatibility Fix
 Released July 19, 2026
 
