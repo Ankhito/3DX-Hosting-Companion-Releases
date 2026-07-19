@@ -1,5 +1,17 @@
 # Patch Notes
 
+## 0.4.2 — Startup Crash Hotfix
+Released July 19, 2026
+
+### Fixed
+
+- Fixed a startup crash caused by the new update notification’s shadow effect.
+- Restored normal launching for the installed app.
+
+### Important
+
+- Version 0.4.1 cannot stay open long enough to install this update from inside the app. If you installed 0.4.1, download and run the 0.4.2 installer manually from the public release page.
+
 ## 0.4.1 — Update Notice and Relaunch Fix
 Released July 19, 2026
 
