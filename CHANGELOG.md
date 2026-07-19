@@ -1,5 +1,19 @@
 # Patch Notes
 
+## 0.4.1 — Update Notice and Relaunch Fix
+Released July 19, 2026
+
+### Improved
+
+- Replaced the subtle update message with a prominent action bar above the footer.
+- The update bar shows the available version, provides a direct action, and can be dismissed manually or automatically after 15 seconds.
+- Opening Settings from the update bar now presents the detected update immediately.
+
+### Fixed
+
+- Improved automatic relaunch reliability after an update finishes installing.
+- Added a local update-restart log to help diagnose installation or relaunch problems.
+
 ## 0.4.0 — Smoother In-App Updates
 Released July 19, 2026
 
