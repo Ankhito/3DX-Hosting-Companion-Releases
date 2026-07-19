@@ -1,5 +1,12 @@
 # Patch Notes
 
+## 0.3.1 — Windows Shortcut Icon Fix
+Released July 19, 2026
+
+### Fixed
+
+- Desktop and Start Menu shortcuts now display the 3DX Hosting Companion icon after updating.
+
 ## 0.3.0 — Faster Phrase Folder Switching
 Released July 19, 2026
 
