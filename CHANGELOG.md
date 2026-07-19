@@ -1,5 +1,16 @@
 # Patch Notes
 
+## 0.2.1 — Update Compatibility Fix
+Released July 19, 2026
+
+### Fixed
+
+- Restored native update discovery for the installer and checksum filenames published by GitHub.
+
+### Note
+
+- Users on version 0.1.0 or 0.2.0 should install 0.2.1 manually once. Native update checks will work for later releases.
+
 ## 0.2.0 — Phrase Workspace Update
 Released July 19, 2026
 
@@ -55,4 +66,5 @@ Released July 19, 2026
 - Venue Host mode is not available yet.
 - PhraseExpress import remains experimental.
 - Chat sending relies on external mouse and keyboard simulation; 3DX must be running and visible.
+
 
