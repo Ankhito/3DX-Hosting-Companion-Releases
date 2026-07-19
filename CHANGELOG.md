@@ -1,5 +1,20 @@
 # Patch Notes
 
+## 0.5.5 — Custom Player Statuses
+Released July 19, 2026
+
+### New
+
+- Added custom player-status labels to the Turn Order Manager.
+- Create short markers such as **SH** for Shield and use them from player dropdowns in both turn-order windows.
+- Custom statuses are saved locally and included in local backups.
+
+### Improved
+
+- Removing a custom status safely returns players using it to Playing.
+- Custom markers appear naturally in sent turn orders, for example `Ankh(SH)`.
+- The Turn Order Manager controls panel now scrolls cleanly at smaller window sizes.
+
 ## 0.5.4 — Host Message Editors
 Released July 19, 2026
 

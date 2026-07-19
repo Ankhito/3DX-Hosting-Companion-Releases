@@ -2,7 +2,7 @@
 
 Official public website and Windows installer releases for **3DX Hosting Companion**.
 
-Version 0.5.4 adds visual, emoji-aware Pause and Resume editors to the main Turn Order Manager and Turn / Skip Overlay. Optional Google and Discord accounts remain available while every local hosting tool continues to work without signing in.
+Version 0.5.5 adds locally saved custom player-status labels to both turn-order windows. Optional Google and Discord accounts remain available while every local hosting tool continues to work without signing in.
 
 Visit the [3DX Hosting Companion website](https://ankhito.github.io/3DX-Hosting-Companion-Releases/) for an overview, setup flow, and the latest download.
 
