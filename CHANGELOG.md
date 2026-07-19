@@ -1,5 +1,19 @@
 # Patch Notes
 
+## 0.5.2 — Overlay Polish
+Released July 19, 2026
+
+### Improved
+
+- Refreshed the Phrase, Turn/Skip, and Turn Order overlays with cleaner compact controls, centered labels, modern icons, and clearer hover feedback.
+- Phrase buttons now share the width needed by the longest visible phrase, keeping regular and parent phrases aligned without clipping typical names.
+- Parent-phrase result arrows now fit naturally within the shared button layout instead of shifting later buttons out of alignment.
+- Moved the Phrase Overlay title above its folder and Quickbind controls so folder switching remains accessible at very small overlay sizes.
+
+### New
+
+- Added **Show overlay names** in Settings. Turn it off to hide identifying overlay titles while keeping folder controls, status information, Quickbind, player counts, and close buttons available.
+
 ## 0.5.1 — Hosting Workspace Refresh
 Released July 19, 2026
 
