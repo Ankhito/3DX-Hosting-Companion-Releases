@@ -1,5 +1,22 @@
 # Patch Notes
 
+## 0.4.0 — Smoother In-App Updates
+Released July 19, 2026
+
+### Highlights
+
+- The main window now briefly announces when a new version is ready.
+- Updates launched from Settings automatically reopen the app after installation.
+
+### New
+
+- A 15-second update banner includes a direct shortcut to the application-update controls in Settings.
+
+### Improved
+
+- The update flow now waits for Windows Installer to finish before reopening the newly installed version.
+- Update confirmation text clearly explains that the app will close and restart.
+
 ## 0.3.1 — Windows Shortcut Icon Fix
 Released July 19, 2026
 
