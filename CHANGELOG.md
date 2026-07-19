@@ -1,5 +1,20 @@
 # Patch Notes
 
+## 0.5.4 — Host Message Editors
+Released July 19, 2026
+
+### New
+
+- Added Pause and Resume message editing directly to the main Turn Order Manager.
+- Added the categorized 3DX emoji picker to both built-in message editors.
+- Pause and Resume editors now display colored emojis instead of raw sprite tags.
+
+### Improved
+
+- Right-click editing from the Turn / Skip Overlay now opens without selecting all existing text.
+- Improved editor text contrast and readability.
+- Changes made in the main manager are used immediately by an already-open overlay.
+
 ## 0.5.3 — Native 3DX Emoji
 Released July 19, 2026
 
