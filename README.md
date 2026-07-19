@@ -2,7 +2,7 @@
 
 Official public website and Windows installer releases for **3DX Hosting Companion**.
 
-Version 0.5.0 adds optional Google and Discord accounts while keeping every local hosting tool available without signing in. Cloud backup and sync remain future premium features.
+Version 0.5.1 refreshes the hosting workspace and navigation. Optional Google and Discord accounts remain available while every local hosting tool continues to work without signing in.
 
 Visit the [3DX Hosting Companion website](https://ankhito.github.io/3DX-Hosting-Companion-Releases/) for an overview, setup flow, and the latest download.
 
