@@ -1,5 +1,21 @@
 # Patch Notes
 
+## 0.5.3 — Native 3DX Emoji
+Released July 19, 2026
+
+### New
+
+- Added a searchable emoji picker directly to the Phrase Editor.
+- Added the complete 639-emoji catalog used by 3DX, including its Std, Extra, Fun, Symbols, and Stickman categories.
+- Emoji now appear as their proper colored images in the picker and chat preview while remaining fully compatible with 3DX chat.
+
+### Improved
+
+- Related emoji are grouped into easier-to-browse sections such as faces, gestures, words, alphabet, numbers, and figures.
+- Alphabet and number tiles follow their natural order.
+- Audited every emoji category against 3DX so word tiles remain under Symbols and all pink figure emoji remain under Stickman.
+- Selecting an emoji inserts it at the current message cursor instead of only appending it to the end.
+
 ## 0.5.2 — Overlay Polish
 Released July 19, 2026
 
