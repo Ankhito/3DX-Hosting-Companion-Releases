@@ -1,5 +1,18 @@
 # Patch Notes
 
+## 0.5.6 — Countdown and Status Controls
+Released July 19, 2026
+
+### Fixed
+
+- Countdown numbers now clear any stale chat-input text before pasting, preventing messages from joining into strings such as `54321`.
+- Added a short processing window after each Enter key so 3DX can finish sending before the next countdown step.
+
+### Improved
+
+- Moved custom-status creation to a clearly visible **Manage Statuses** button beside the player count.
+- Added a dedicated panel for creating, selecting, and removing custom player-status labels.
+
 ## 0.5.5 — Custom Player Statuses
 Released July 19, 2026
 
