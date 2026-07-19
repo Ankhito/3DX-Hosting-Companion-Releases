@@ -1,5 +1,20 @@
 # Patch Notes
 
+## 0.5.1 — Hosting Workspace Refresh
+Released July 19, 2026
+
+### Improved
+
+- Moved Game Host, Venue Host, and the new Greeter mode into a dedicated Hosting Mode switcher in the upper-right corner.
+- Moved Settings out of the workspace navigation and replaced it with a compact cog control.
+- Moved folder import and export beside the Phrase Library where those actions apply.
+- Simplified the centered navigation so it contains only active hosting workspaces.
+- Refreshed the app with the public website’s layered charcoal surfaces, rounded cards, softer controls, and pink/violet accents.
+
+### Coming later
+
+- Venue Host and Greeter remain visible as planned modes but are not active yet.
+
 ## 0.5.0 — Optional Accounts
 Released July 19, 2026
 
