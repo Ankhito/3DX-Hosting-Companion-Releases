@@ -2,7 +2,7 @@
 
 Official public website and Windows installer releases for **3DX Hosting Companion**.
 
-Version 0.6.0 adds optional, account-based cloud backups for phrase libraries and explicitly selected Room Files. Signing in alone never uploads local data; every cloud backup is started manually, transferred over HTTPS, stored privately with Cloudflare-managed encryption at rest, and Room Files are checksum-verified byte-for-byte.
+Version 0.6.1 adds Friend Codes, requests, and a dedicated Friends window as the foundation for future co-hosting and explicit sharing. Optional cloud backups remain manual: signing in alone never uploads local data.
 
 Visit the [3DX Hosting Companion website](https://ankhito.github.io/3DX-Hosting-Companion-Releases/) for an overview, setup flow, and the latest download.
 
