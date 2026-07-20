@@ -3,10 +3,24 @@ const versionNavigation = document.querySelector("#version-navigation");
 
 function slugify(value) { return `version-${value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`; }
 function appendInlineText(parent, value) {
-  value.split(/(`[^`]+`)/g).filter(Boolean).forEach(part => {
-    if (part.startsWith("`") && part.endsWith("`")) { const code = document.createElement("code"); code.textContent = part.slice(1, -1); parent.append(code); }
-    else parent.append(document.createTextNode(part));
-  });
+  const tokenPattern = /(`[^`]+`|\*\*[^*]+\*\*|__[^_]+__|\*[^*]+\*|_[^_]+_|\[[^\]]+\]\([^)]+\))/g;
+  let cursor = 0;
+  for (const match of value.matchAll(tokenPattern)) {
+    if (match.index > cursor) parent.append(document.createTextNode(value.slice(cursor, match.index)));
+    const token = match[0];
+    if (token.startsWith("`")) {
+      const code = document.createElement("code"); code.textContent = token.slice(1, -1); parent.append(code);
+    } else if (token.startsWith("**") || token.startsWith("__")) {
+      const strong = document.createElement("strong"); strong.textContent = token.slice(2, -2); parent.append(strong);
+    } else if (token.startsWith("[") && token.includes("](")) {
+      const separator = token.indexOf("](");
+      const link = document.createElement("a"); link.textContent = token.slice(1, separator); link.href = token.slice(separator + 2, -1); parent.append(link);
+    } else {
+      const emphasis = document.createElement("em"); emphasis.textContent = token.slice(1, -1); parent.append(emphasis);
+    }
+    cursor = match.index + token.length;
+  }
+  if (cursor < value.length) parent.append(document.createTextNode(value.slice(cursor)));
 }
 function renderMarkdown(markdown) {
   const lines = markdown.replace(/\r/g, "").split("\n");
@@ -33,6 +47,9 @@ function renderMarkdown(markdown) {
     if (line.startsWith("- ")) {
       if (!list) { list = document.createElement("ul"); section.append(list); }
       const item = document.createElement("li"); appendInlineText(item, line.slice(2)); list.append(item); continue;
+    }
+    if (line.startsWith("> ")) {
+      const quote = document.createElement("blockquote"); appendInlineText(quote, line.slice(2)); article.append(quote); section = article; list = null; continue;
     }
     const paragraph = document.createElement("p"); if (section === article) paragraph.className = "release-date"; appendInlineText(paragraph, line); section.append(paragraph); list = null;
   }

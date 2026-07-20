@@ -1527,6 +1527,34 @@ h1 span {
   color: #8f8694;
   font-size: 12px;
 }
+.release-note blockquote {
+  margin: 20px 0 4px;
+  padding: 13px 16px;
+  border: 1px solid rgba(236, 120, 180, 0.22);
+  border-left: 3px solid var(--pink);
+  border-radius: 8px;
+  background: rgba(236, 120, 180, 0.07);
+  color: #d8cedb;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.release-note strong {
+  color: #f7f2f8;
+  font-weight: 800;
+}
+.release-note em {
+  color: #e3d8e6;
+}
+.release-note a {
+  color: #f2a0cb;
+  text-decoration: underline;
+  text-decoration-color: rgba(242, 160, 203, 0.4);
+  text-underline-offset: 3px;
+}
+.release-note a:hover {
+  color: #ffffff;
+  text-decoration-color: currentColor;
+}
 .note-group {
   margin-top: 26px;
 }
