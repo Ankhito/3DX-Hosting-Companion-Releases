@@ -1,5 +1,31 @@
 # Patch Notes
 
+## 0.8.0 — Connected Hosting
+Released July 20, 2026
+
+### New
+
+- The Host's room phrase library is now available in the normal **Phrase Overlay** for both Host and Co-Host while connected.
+- Both participants can independently browse the Host's folders and send phrases through their own local 3DX client.
+- Hiding the Co-Hosting management window now keeps the live room connected; use **Disconnect** or **End / Leave Room** when you intend to leave.
+
+### Improved
+
+- Turn-order synchronization is now event-driven and sends an update only after a genuine edit.
+- Turn-order edits use compact live messages instead of retransmitting the entire phrase library.
+- Connected rooms stop polling the room-list service and use the existing live connection for presence and state changes.
+- Temporary room phrases remain isolated from the Co-Host's local library, folder selection, and quickbinds.
+
+### Fixed
+
+- Fixed the shared turn-order interface rapidly blinking between Host and Co-Host states.
+- Fixed identical remote states being echoed repeatedly between participants.
+- Fixed unnecessary Cloudflare and database traffic continuing while a room was already connected.
+
+### Known limitations
+
+- Co-Hosting remains experimental and needs continued two-host testing and feedback.
+
 ## 0.7.4 — Stable Chat Detection
 Released July 20, 2026
 
