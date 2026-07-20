@@ -1,5 +1,21 @@
 # Patch Notes
 
+## 0.6.1 — Friends
+Released July 20, 2026
+
+### New
+
+- Added a dedicated Friends window for signed-in users.
+- Every account receives a unique Friend Code that can be copied and shared directly.
+- Send, accept, decline, and cancel friend requests.
+- View and remove accepted friends from one self-contained screen.
+
+### Privacy
+
+- OAuth accounts are not searchable through the Companion.
+- Adding a friend does not automatically share phrases, Room Files, or cloud backups.
+- Friends provide the trusted relationship needed for future co-hosting and explicit content sharing.
+
 ## 0.6.0 — Optional Cloud Backups
 Released July 20, 2026
 
