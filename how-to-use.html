@@ -43,7 +43,7 @@
     <main>
       <section class="guide-hero shell">
         <div>
-          <span class="kicker">Visual guide · Version 0.5.6</span>
+          <span class="kicker">Visual guide · Version 0.6.0</span>
           <h1>Ready to host<br /><span>in a few minutes.</span></h1>
           <p>
             Set up the client once, place the lightweight overlays around 3DX,
@@ -387,13 +387,14 @@
               <span>06</span>
               <div>
                 <small>ROOM FILES</small>
-                <h2>Keep room sources close.</h2>
+                <h2>Keep room files safe and close.</h2>
                 <p>
-                  Add shortcuts to the room files you use. Open the file or its
-                  containing folder without hunting through Explorer.
+                  Select the Room Files you use, keep them local, or manually
+                  create an optional account-backed cloud copy.
                 </p>
                 <ul>
-                  <li>Room Files remain local and are never modified.</li>
+                  <li>Room Files remain local unless you explicitly start an optional cloud backup.</li>
+                  <li>Cloud copies preserve the exact bytes and are checksum-verified before restore.</li>
                   <li>Remove shortcuts without deleting the source file.</li>
                   <li>References are included in local backups.</li>
                 </ul>
@@ -402,26 +403,26 @@
             <div class="ui-shot file-shot">
               <header>
                 <div>
-                  <b>Room Files</b><small>Local room-file shortcuts</small>
+                  <b>Room File Backup Sources</b><small>Explicitly selected files only</small>
                 </div>
-                <button>Add Room File</button>
+                <button>Add Room Files</button><button>Save List</button><button>Back Up Enabled Files</button>
               </header>
               <p>
                 <i class="file-icon"></i
                 ><span
                   ><b>Olympus Board</b
                   ><small>C:\Rooms\Olympus.world</small></span
-                ><button>Open</button><button>Folder</button
-                ><button>Remove</button>
+                ><button>Enabled</button><button>Remove</button>
               </p>
               <p>
                 <i class="file-icon"></i
                 ><span
                   ><b>Game Night Lounge</b
                   ><small>D:\3DX Rooms\GameNight.world</small></span
-                ><button>Open</button><button>Folder</button
-                ><button>Remove</button>
+                ><button>Enabled</button><button>Remove</button>
               </p>
+              <header><div><b>Cloud Room File backups</b><small>Encrypted in transit and at rest</small></div><button>Refresh</button></header>
+              <p><i class="file-icon"></i><span><b>Olympus.world</b><small>Checksum verified · 4.8 MB</small></span><button>Restore Selected</button><button>Delete Cloud Copy</button></p>
             </div>
           </section>
 
@@ -441,7 +442,8 @@
                   </li>
                   <li>Create or restore a portable local backup.</li>
                   <li>Check for verified installer updates inside the app.</li>
-                  <li>Google and Discord accounts are optional.</li>
+                  <li>Google and Discord accounts are optional and needed only for cloud features.</li>
+                  <li>Signing in alone never uploads phrases or Room Files.</li>
                 </ul>
               </div>
             </div>
@@ -482,7 +484,7 @@
               <section>
                 <p>
                   <b>Application updates</b
-                  ><small>Installed version: 0.5.6</small>
+                  ><small>Installed version: 0.6.0</small>
                 </p>
                 <button>Check for Updates</button>
               </section>
