@@ -2,7 +2,7 @@
 
 Official public website and Windows installer releases for **3DX Hosting Companion**.
 
-Version 0.6.1 adds Friend Codes, requests, and a dedicated Friends window as the foundation for future co-hosting and explicit sharing. Optional cloud backups remain manual: signing in alone never uploads local data.
+Version 0.7.0 adds experimental, friend-only Co-Hosting with temporary phrase synchronization and a shared live turn order. This first version is wholly untested in a real two-user session and needs user feedback. Optional cloud backups remain manual: signing in alone never uploads local data.
 
 Visit the [3DX Hosting Companion website](https://ankhito.github.io/3DX-Hosting-Companion-Releases/) for an overview, setup flow, and the latest download.
 

@@ -1,5 +1,30 @@
 # Patch Notes
 
+## 0.7.0 — Experimental Co-Hosting
+Released July 20, 2026
+
+> **Testing notice:** Co-Hosting is wholly untested in a real two-user hosting session at release. It is an experimental first pass and needs detailed feedback from Hosts and Co-Hosts before it should be considered reliable.
+
+### New
+
+- Added private Co-Hosting rooms between accepted friends.
+- The inviter is the **Host** and the friend who accepts is the **Co-Host**.
+- Synchronizes the Host's Game Host phrase folders, phrases, and current turn order into a temporary live session.
+- Both users can send synchronized phrases through their own local 3DX client.
+- Both users can add, remove, and mark players in the shared turn order.
+- Co-Host turn-order changes update the Host's normal Turn Order Manager.
+
+### Privacy and boundaries
+
+- Co-Hosting works only through direct invitations to accepted friends. There are no public rooms, random users, room keys, or join codes.
+- The Co-Host receives an ephemeral session copy of the Host's phrases. It is not saved into the Co-Host's local phrase library.
+- Co-Hosts cannot overwrite the Host's saved phrase library.
+- Rooms expire after 12 hours and their temporary server session state is deleted.
+
+### Fixed
+
+- Added single-instance protection to prevent duplicate app processes from producing false global-hotkey conflict warnings.
+
 ## 0.6.1 — Friends
 Released July 20, 2026
 
