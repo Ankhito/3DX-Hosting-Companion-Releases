@@ -1,5 +1,21 @@
 # Patch Notes
 
+## 0.7.4 — Stable Chat Detection
+Released July 20, 2026
+
+### Improved
+
+- A detected chat position now remains cached for the current 3DX window session.
+- Silent background scans preserve the last known-good position when detection fails.
+- Manual **Scan** remains available when the chat panel is deliberately moved.
+- Chat-location status now accurately describes the session-long cache.
+
+### Fixed
+
+- Fixed the internal chat-position cache expiring after five minutes even when automatic rescanning was disabled.
+- Fixed sends unexpectedly triggering a hidden OCR rescan after the cache expired.
+- Fixed background OCR occasionally replacing the correct chat position with a distant purple interface element.
+
 ## 0.7.3 — Easier Co-Host Connections
 Released July 20, 2026
 
