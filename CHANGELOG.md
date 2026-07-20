@@ -1,5 +1,22 @@
 # Patch Notes
 
+## 0.6.0 — Optional Cloud Backups
+Released July 20, 2026
+
+### New
+
+- Added manual cloud backup and restore for phrase libraries, including folders, commands, quickbinds, and linked outcomes.
+- Added optional cloud backup for explicitly selected Room Files, with a cloud-copy list, restore destination picker, and individual deletion.
+- Re-uploading a Room File with the same filename updates its existing cloud copy.
+
+### Safety and privacy
+
+- Cloud features require an optional Google or Discord account. Every local hosting feature remains available while signed out or offline.
+- Signing in never uploads phrases or Room Files. Uploads happen only when the user chooses a cloud backup action.
+- Cloud transfers use encrypted HTTPS connections, and private backup objects are encrypted at rest by Cloudflare R2.
+- Room Files remain byte-for-byte unchanged and are independently checksum-verified during upload, download, and final restore.
+- Cloud storage uses managed encryption rather than end-to-end encryption with a user-held key.
+
 ## 0.5.6 — Countdown and Status Controls
 Released July 19, 2026
 

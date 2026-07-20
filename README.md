@@ -2,7 +2,7 @@
 
 Official public website and Windows installer releases for **3DX Hosting Companion**.
 
-Version 0.5.6 improves countdown-send reliability and makes custom-status management clearly accessible beside the player count. Optional Google and Discord accounts remain available while every local hosting tool continues to work without signing in.
+Version 0.6.0 adds optional, account-based cloud backups for phrase libraries and explicitly selected Room Files. Signing in alone never uploads local data; every cloud backup is started manually, transferred over HTTPS, stored privately with Cloudflare-managed encryption at rest, and Room Files are checksum-verified byte-for-byte.
 
 Visit the [3DX Hosting Companion website](https://ankhito.github.io/3DX-Hosting-Companion-Releases/) for an overview, setup flow, and the latest download.
 
