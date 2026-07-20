@@ -1,5 +1,26 @@
 # Patch Notes
 
+## 0.7.2 — Co-Hosting Connection Fixes
+Released July 20, 2026
+
+### Improved
+
+- Co-Hosting rooms now refresh automatically while the window is open.
+- Accepted invitations connect automatically as soon as the active room becomes available.
+- Unexpected live-room disconnections now show a clear status and attempt to reconnect.
+- Connection, invitation, and synchronization states are easier to distinguish.
+
+### Fixed
+
+- Fixed accepted invitations sometimes remaining stuck as `invited` for the Host.
+- Fixed rapid player additions and turn-order edits occasionally failing to reach the Co-Host.
+- Fixed valid updates being ignored when the Host and Co-Host computers had different system clocks.
+- Fixed live-room connection errors being hidden behind a generic disconnected state.
+
+### Known limitations
+
+- Co-Hosting remains experimental and needs continued two-host testing and feedback.
+
 ## 0.7.1 — Feedback and Interface Fixes
 Released July 20, 2026
 
