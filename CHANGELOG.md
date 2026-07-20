@@ -1,5 +1,23 @@
 # Patch Notes
 
+## 0.7.3 — Easier Co-Host Connections
+Released July 20, 2026
+
+### Improved
+
+- The invited Co-Host can now select an invited room and press **Connect**; the app accepts the invitation automatically before opening the live session.
+- Hosts now receive a clear waiting message while the invited friend has not yet accepted.
+- Missing, ended, and expired invitations now show more useful guidance.
+
+### Fixed
+
+- Fixed **Connect** incorrectly rejecting a valid selected invitation with “Select an accepted room.”
+- Fixed the invitation card and separate **Accept** action creating an unnecessary and confusing extra step.
+
+### Known limitations
+
+- Co-Hosting remains experimental and needs continued two-host testing and feedback.
+
 ## 0.7.2 — Co-Hosting Connection Fixes
 Released July 20, 2026
 
