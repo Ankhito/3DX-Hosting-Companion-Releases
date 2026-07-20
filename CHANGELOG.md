@@ -1,5 +1,28 @@
 # Patch Notes
 
+## 0.7.1 — Feedback and Interface Fixes
+Released July 20, 2026
+
+### New
+
+- Added an in-app form for bug reports, feature requests, and general feedback without requiring a GitHub or Companion account.
+- Added an optional in-game-name field so testers can identify themselves when they want to.
+- Successful submissions provide a feedback reference and direct link to the public issue.
+
+### Improved
+
+- Placed **Send Feedback** beside the Ko-fi button in the bottom-right corner.
+- The form clearly explains which entered details become publicly visible before submission.
+- Feedback never automatically includes phrases, Room Files, account details, or diagnostic logs.
+
+### Fixed
+
+- Restored the dark app theme across Co-Hosting room lists, synchronized phrase lists, shared turn-order lists, and tabs.
+
+### Known limitations
+
+- Co-Hosting remains experimental and still needs real two-host testing and feedback.
+
 ## 0.7.0 — Experimental Co-Hosting
 Released July 20, 2026
 
