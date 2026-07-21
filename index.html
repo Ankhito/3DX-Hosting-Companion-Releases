@@ -73,11 +73,9 @@
                 <span class="turn">Turn / Skip</span>
                 <span>Phrase Overlay</span>
                 <span class="active">Turn Order</span>
-                <span>Room Files</span>
               </div>
               <div class="mock-app-utilities">
                 <span class="mock-settings" title="Settings" aria-label="Settings">&#9881;</span>
-                <div class="mock-mode-switch"><small>Hosting mode</small><b>Game Host</b><span>Venue</span><span>Greeter</span></div>
               </div>
             </div>
             <aside class="mock-library">
@@ -121,6 +119,12 @@
       </div>
     </section>
 
+    <section class="section shell">
+      <div class="cta-card">
+        <div><span class="kicker">Development status</span><h2>Version 1.0 remains available locally.</h2><p>As there is not enough interest in the app from the community, especially it's cloud features, development will halt for now. Feedback is still welcome and everything broken will be fixed as it is reported. The app will remain usable at a local level but no new features will be implemented at this time. Thanks to everyone that tested.</p></div>
+      </div>
+    </section>
+
     <section class="trust-strip" aria-label="Product qualities">
       <div><span>◆</span><b>External companion</b><small>No injection or game modification</small></div>
       <div><span>◉</span><b>Local-first</b><small>Your phrases stay on your PC</small></div>
@@ -160,9 +164,9 @@
           <div class="countdown"><span>Peach skips in</span><strong>5</strong><i>4</i><i>3</i><i>2</i><i>1</i></div>
         </article>
         <article class="feature-card feature-wide">
-          <div class="feature-icon violet">◎</div><h3>Accounts only when you want one</h3>
-          <p>Continue with Google or Discord only if you want optional cloud backups, Friends, or experimental Co-Hosting. Co-Hosting is currently wholly untested in a real two-user session and needs feedback.</p>
-          <div class="key-row"><kbd>Google</kbd><span>or</span><kbd>Discord</kbd><em>Local mode always available</em></div>
+          <div class="feature-icon violet">◎</div><h3>Fully local and account-free</h3>
+          <p>Phrases, folders, quickbinds, settings, and local backups stay on your computer. No Companion account or cloud service is required.</p>
+          <div class="key-row"><kbd>Local</kbd><span>and</span><kbd>Offline</kbd><em>Your hosting library stays yours</em></div>
         </article>
       </div>
     </section>
@@ -180,8 +184,8 @@
 
     <section id="privacy" class="section shell privacy-section">
       <div class="privacy-card">
-        <div class="privacy-copy"><span class="kicker">Local by default</span><h2>Your hosting data stays yours.</h2><p>No account is required. Cloud backups are optional, require Google or Discord sign-in, and run only when you press a backup button. Transfers use HTTPS encryption and private backup objects use Cloudflare-managed encryption at rest.</p><a href="privacy.html">Read the privacy policy →</a></div>
-        <div class="privacy-list"><div><span>✓</span><p><b>No automatic uploads</b><small>Signing in alone never sends phrases or Room Files.</small></p></div><div><span>✓</span><p><b>No forced account</b><small>Every local tool works while signed out.</small></p></div><div><span>✓</span><p><b>Byte-safe Room Files</b><small>Checksum-verified without parsing or rewriting.</small></p></div><div><span>✓</span><p><b>Protected cloud storage</b><small>Encrypted in transit and at rest.</small></p></div></div>
+        <div class="privacy-copy"><span class="kicker">Local by design</span><h2>Your hosting data stays yours.</h2><p>The Companion has no account system or cloud storage. Phrases, folders, quickbinds, turn-order state, and settings remain on your computer.</p><a href="privacy.html">Read the privacy policy →</a></div>
+        <div class="privacy-list"><div><span>✓</span><p><b>No uploads</b><small>Your phrase library is not sent to an online service.</small></p></div><div><span>✓</span><p><b>No account</b><small>Install and use every included feature locally.</small></p></div><div><span>✓</span><p><b>Portable backups</b><small>Create local backup files whenever you choose.</small></p></div><div><span>✓</span><p><b>Verified updates</b><small>Installers come from public GitHub Releases.</small></p></div></div>
       </div>
     </section>
 
@@ -191,11 +195,8 @@
         <details open><summary>Is this a 3DX mod?<span>+</span></summary><p>No. It is an external Windows companion. It does not inject into, patch, or modify 3DXChat.</p></details>
         <details><summary>How does sending work?<span>+</span></summary><p>The app detects the visible 3DX chat input and uses brief Windows mouse, clipboard, and keyboard simulation. Your cursor is restored after sending.</p></details>
         <details><summary>Why might Windows show a warning?<span>+</span></summary><p>The application is not yet code-signed. Download only from this official release repository and verify the included SHA-256 checksum if desired.</p></details>
-        <details><summary>Do I need a Google or Discord account?<span>+</span></summary><p>Only for optional cloud backups and Friends. Every local hosting feature remains available while signed out or offline, and signing in does not upload anything until you explicitly start a backup.</p></details>
-        <details><summary>What does adding a friend share?<span>+</span></summary><p>Nothing automatically. Friends can currently see one another’s display name and avatar. Phrase, Room File, and co-host sharing will require explicit actions when those features are introduced.</p></details>
-        <details><summary>Is Co-Hosting ready for normal use?<span>+</span></summary><p>Not yet. Version 0.7.0 is a wholly untested first pass that requires two accepted friends. Please treat it as experimental, avoid relying on it for important sessions, and provide detailed feedback about connection, synchronization, sending, and turn-order behavior.</p></details>
-        <details><summary>Are cloud backups encrypted?<span>+</span></summary><p>Yes. Transfers use HTTPS/TLS encryption and private backup objects are encrypted at rest by Cloudflare R2. Access requires an authenticated Companion account. This is managed cloud encryption, not end-to-end encryption with a user-held key, so no online service can honestly promise that theft is impossible.</p></details>
-        <details><summary>Does it support Venue Host or Greeter mode?<span>+</span></summary><p>Venue Host and Greeter are visible in the Hosting Mode switcher as future modes, but neither is included in the current release.</p></details>
+        <details><summary>Do I need an account?<span>+</span></summary><p>No. Version 1.0 is fully local and has no Companion account or cloud service.</p></details>
+        <details><summary>Will new features be added?<span>+</span></summary><p>Feature development is paused. Reported breakages will still be fixed, and feedback remains welcome.</p></details>
       </div>
     </section>
 

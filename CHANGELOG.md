@@ -1,5 +1,24 @@
 # Patch Notes
 
+## 1.0.0 — Local Edition
+Released July 21, 2026
+
+> **Development notice:** As there is not enough interest in the app from the community, especially it's cloud features, development will halt for now. Feedback is still welcome and everything broken will be fixed as it is reported. The app will remain usable at a local level but no new features will be implemented at this time. Thanks to everyone that tested.
+
+### Changed
+
+- The Companion is now a fully local Game Host application.
+- Removed optional accounts, cloud phrase backups, cloud Room File backups, Friends, Co-Hosting, and the in-app cloud feedback form.
+- Removed the Room Files manager and its saved local source list.
+- Removed the unused Venue Host and Greeter placeholders.
+- Local backups now contain phrases, folders, quickbinds, and settings only.
+
+### Still available
+
+- Phrase folders, commands, linked outcomes, PhraseExpress import, quickbinds, and native 3DX emoji remain available.
+- Phrase and Turn / Skip overlays, turn order management, custom statuses, skip countdowns, OCR chat targeting, local backups, and verified updates remain available.
+- No account or online service is required to use the app.
+
 ## 0.8.0 — Connected Hosting
 Released July 20, 2026
 

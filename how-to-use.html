@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#17141d" />
     <meta
       name="description"
-      content="A visual guide to phrases, overlays, turn orders, countdowns, Room Files, and settings in 3DX Hosting Companion."
+      content="A visual guide to phrases, overlays, turn orders, countdowns, and settings in 3DX Hosting Companion."
     />
     <meta property="og:title" content="How to Use 3DX Hosting Companion" />
     <meta
@@ -43,7 +43,7 @@
     <main>
       <section class="guide-hero shell">
         <div>
-          <span class="kicker">Visual guide · Version 0.7.0</span>
+          <span class="kicker">Visual guide · Version 1.0.0</span>
           <h1>Ready to host<br /><span>in a few minutes.</span></h1>
           <p>
             Set up the client once, place the lightweight overlays around 3DX,
@@ -69,8 +69,7 @@
           <b>On this page</b><a href="#start">First run</a
           ><a href="#library">Phrase library</a
           ><a href="#phrases">Phrase editor</a><a href="#overlays">Overlays</a
-          ><a href="#turns">Turn order</a><a href="#files">Room Files</a
-          ><a href="#settings">Settings</a>
+          ><a href="#turns">Turn order</a><a href="#settings">Settings</a>
         </aside>
         <div class="guide-content">
           <section id="start" class="guide-step">
@@ -108,8 +107,7 @@
                 </div>
                 <nav>
                   <button class="green">Turn / Skip Overlay</button
-                  ><button>Phrase Overlay</button><button>Turn Order</button
-                  ><button>Room Files</button>
+                  ><button>Phrase Overlay</button><button>Turn Order</button>
                 </nav>
                 <button class="gear-icon" aria-label="Settings"></button>
               </header>
@@ -382,82 +380,14 @@
             </div>
           </section>
 
-          <section id="files" class="guide-step">
-            <div class="guide-copy">
-              <span>06</span>
-              <div>
-                <small>ROOM FILES</small>
-                <h2>Keep room files safe and close.</h2>
-                <p>
-                  Select the Room Files you use, keep them local, or manually
-                  create an optional account-backed cloud copy.
-                </p>
-                <ul>
-                  <li>Room Files remain local unless you explicitly start an optional cloud backup.</li>
-                  <li>Cloud copies preserve the exact bytes and are checksum-verified before restore.</li>
-                  <li>Remove shortcuts without deleting the source file.</li>
-                  <li>References are included in local backups.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="ui-shot file-shot">
-              <header>
-                <div>
-                  <b>Room File Backup Sources</b><small>Explicitly selected files only</small>
-                </div>
-                <button>Add Room Files</button><button>Save List</button><button>Back Up Enabled Files</button>
-              </header>
-              <p>
-                <i class="file-icon"></i
-                ><span
-                  ><b>Olympus Board</b
-                  ><small>C:\Rooms\Olympus.world</small></span
-                ><button>Enabled</button><button>Remove</button>
-              </p>
-              <p>
-                <i class="file-icon"></i
-                ><span
-                  ><b>Game Night Lounge</b
-                  ><small>D:\3DX Rooms\GameNight.world</small></span
-                ><button>Enabled</button><button>Remove</button>
-              </p>
-              <header><div><b>Cloud Room File backups</b><small>Encrypted in transit and at rest</small></div><button>Refresh</button></header>
-              <p><i class="file-icon"></i><span><b>Olympus.world</b><small>Checksum verified · 4.8 MB</small></span><button>Restore Selected</button><button>Delete Cloud Copy</button></p>
-            </div>
-          </section>
-
-          <section id="cohosting" class="guide-step">
-            <div class="guide-copy">
-              <span>07</span>
-              <div>
-                <small>EXPERIMENTAL CO-HOSTING</small>
-                <h2>Host together with a friend.</h2>
-                <p><b>Co-Hosting is wholly untested in a real two-user session.</b> Version 0.7.0 is an experimental first pass and requires detailed feedback.</p>
-                <ul>
-                  <li>Only accepted friends can receive a direct Co-Host invitation.</li>
-                  <li>There are no public rooms, random joins, room keys, or join codes.</li>
-                  <li>The Host's phrases are temporary and never saved into the Co-Host's local library.</li>
-                  <li>Both users can send phrases and manipulate the shared turn order.</li>
-                  <li>Please report connection, synchronization, sending, and turn-order failures.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="ui-shot settings-shot">
-              <header><b>Co-Hosting</b><small>EXPERIMENTAL — feedback required</small></header>
-              <section><p><b>Host a room</b><small>Select an accepted friend</small></p><button>Invite Friend</button></section>
-              <section><p><b>Private live session</b><small>Host phrases · Shared turn order · 12-hour expiry</small></p><button>Connect</button><button>End Room</button></section>
-            </div>
-          </section>
-
           <section id="settings" class="guide-step">
             <div class="guide-copy">
-              <span>08</span>
+              <span>06</span>
               <div>
                 <small>SETTINGS &amp; BACKUP</small>
                 <h2>Make it fit your setup.</h2>
                 <p>
-                  Settings are stored locally and remain available without an
-                  account.
+                  Settings and backups are stored locally on this computer.
                 </p>
                 <ul>
                   <li>
@@ -465,17 +395,13 @@
                   </li>
                   <li>Create or restore a portable local backup.</li>
                   <li>Check for verified installer updates inside the app.</li>
-                  <li>Google and Discord accounts are optional and needed for cloud features and Friends.</li>
-                  <li>Open Friends from the people button in the main header to copy your Friend Code, manage requests, and remove friends.</li>
-                  <li>Adding a friend never shares phrases, Room Files, or backups automatically.</li>
-                  <li>Signing in alone never uploads phrases or Room Files.</li>
                 </ul>
               </div>
             </div>
             <div class="ui-shot settings-shot">
               <header>
                 <b>Settings</b
-                ><small>Local tools stay available without an account.</small>
+                ><small>All included tools work locally.</small>
               </header>
               <div>
                 <label
@@ -500,8 +426,7 @@
                 <p>
                   <b>Local backup and restore</b
                   ><small
-                    >Includes phrases, folders, Room Files, quickbinds, and
-                    settings.</small
+                    >Includes phrases, folders, quickbinds, and settings.</small
                   >
                 </p>
                 <button>Create Backup</button><button>Restore Backup</button>
@@ -509,7 +434,7 @@
               <section>
                 <p>
                   <b>Application updates</b
-                  ><small>Installed version: 0.7.0</small>
+                  ><small>Installed version: 1.0.0</small>
                 </p>
                 <button>Check for Updates</button>
               </section>
