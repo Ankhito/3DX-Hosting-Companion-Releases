@@ -1,5 +1,17 @@
 # Patch Notes
 
+## 1.0.2 — Safer Countdown Shortcuts
+Released August 21, 2026
+
+### Improved
+
+- The skip-countdown cancel shortcut can now be captured directly in Settings. Press the key combination you want to use.
+- Added guidance for choosing shortcuts that are free in both Windows and 3DXChat.
+
+### Important
+
+- Shortcuts already reserved by Windows or 3DXChat can still trigger those applications. For example, `Ctrl+Esc` opens the Windows Start menu and `Esc` can open the 3DX menu. Choose an unused combination such as `F8`, `Ctrl+X`, or `Alt+Q`.
+
 ## 1.0.1 — Multiple Account Support
 Released August 21, 2026
 
