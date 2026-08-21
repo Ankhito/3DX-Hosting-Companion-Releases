@@ -1,5 +1,21 @@
 # Patch Notes
 
+## 1.0.1 — Multiple Account Support
+Released August 21, 2026
+
+### New
+
+- Added explicit 3DX account selection for hosts who run multiple 3DXChat windows.
+- Added a startup picker when several accounts are already open.
+- Added automatic detection and a picker when another 3DX account opens later and a choice is needed.
+- Added **Show Selected 3DX** to help identify each running game window before choosing it.
+
+### Improved
+
+- Chat scanning, phrase sends, typed commands, and overlay visibility now consistently follow the selected 3DX account.
+- The selected account is remembered and remains available to change from Settings.
+- If the selected game closes, the Companion waits for a new choice instead of silently controlling another account.
+
 ## 1.0.0 — Local Edition
 Released July 21, 2026
 
