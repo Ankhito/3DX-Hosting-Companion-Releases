@@ -1,5 +1,16 @@
 # Patch Notes
 
+## 1.0.3 — Chat Click Position Adjustment
+Released August 22, 2026
+
+### Fixed
+
+- Adjusted OCR and visual chat detection click points so sends aim inside the chat input instead of its upper edge.
+
+### Testing notice
+
+- This patch is **untested in a live 3DX session**. Please report whether the adjusted click position improves reliability across different chat layouts and UI scales.
+
 ## 1.0.2 — Safer Countdown Shortcuts
 Released August 21, 2026
 

@@ -2,7 +2,7 @@
 
 Official public website and Windows installer releases for **3DX Hosting Companion**.
 
-Version 1.0.2 adds a configurable countdown-cancel shortcut and clearer guidance for avoiding Windows and 3DXChat shortcut conflicts. Version 1.0.1 added safe account selection for hosts running multiple 3DXChat windows. Version 1.0.0 established the final local-only feature set; accounts, cloud backups, Friends, Co-Hosting, Room Files, Venue Host, and Greeter were removed.
+Version 1.0.3 adjusts chat click positioning to improve send reliability. This patch is untested in a live 3DX session and needs player feedback. Version 1.0.2 added a configurable countdown-cancel shortcut and clearer guidance for avoiding Windows and 3DXChat shortcut conflicts. Version 1.0.1 added safe account selection for hosts running multiple 3DXChat windows. Version 1.0.0 established the final local-only feature set; accounts, cloud backups, Friends, Co-Hosting, Room Files, Venue Host, and Greeter were removed.
 
 As there is not enough interest in the app from the community, especially it's cloud features, development will halt for now. Feedback is still welcome and everything broken will be fixed as it is reported. The app will remain usable at a local level but no new features will be implemented at this time. Thanks to everyone that tested.
 
