@@ -43,7 +43,7 @@
     <main>
       <section class="guide-hero shell">
         <div>
-          <span class="kicker">Visual guide · Version 1.0.3</span>
+          <span class="kicker">Visual guide · Version 1.0.4</span>
           <h1>Ready to host<br /><span>in a few minutes.</span></h1>
           <p>
             Set up the client once, place the lightweight overlays around 3DX,
@@ -81,18 +81,20 @@
                 <p>
                   Open 3DX before the Companion. A green detection label
                   confirms the game is available. The startup scan locates the
-                  movable chat input and caches it.
+                  movable chat input and remembers its position for that game window.
                 </p>
                 <ul>
                   <li>Use <b>Scan</b> again after moving chat.</li>
                   <li>If several accounts are open, choose the hosting window in the automatic picker or under <b>Settings → 3DX instance</b>.</li>
                   <li>Use <b>Show Selected 3DX</b> when you need help identifying a window.</li>
                   <li>Choose silent rescans every 0, 5, or 10 minutes.</li>
+                  <li>Resizing 3DX or changing display scale refreshes the saved chat position before the next send.</li>
                   <li>
                     The app remains external and restores your cursor after
                     sending.
                   </li>
                 </ul>
+                <p>The live 3DX detection, sending, and shortcut improvements in version 1.0.4 still need player testing. Please report any missed sends or incorrect chat clicks.</p>
               </div>
             </div>
             <div class="ui-shot detect-shot">
@@ -115,7 +117,7 @@
               </header>
               <section>
                 <b>Chat location found</b
-                ><span>Cached for 5 minutes. Ready to send.</span
+                ><span>Chat location saved for this game window. Ready to send.</span
                 ><button>Scan again</button>
               </section>
             </div>
@@ -135,6 +137,7 @@
                 <ul>
                   <li>Create, rename, import, and export beside the tree.</li>
                   <li>Moving a parent phrase moves its children by default.</li>
+                  <li>Editing a linked phrase found through search preserves its parent link.</li>
                   <li>
                     Import individual phrases from PhraseExpress in the editor.
                   </li>
@@ -196,8 +199,8 @@
                     <code>!welcome</code>.
                   </li>
                   <li>
-                    Link child outcomes to a parent rule and give them roll
-                    numbers.
+                    Link child outcomes to a parent rule in the same folder and give them roll
+                    numbers. Outcomes cannot contain another level of linked phrases.
                   </li>
                   <li>Every message follows the 400-character chat limit.</li>
                 </ul>
@@ -323,6 +326,7 @@
                     Select a player for a protected 5- or 10-second skip
                     countdown.
                   </li>
+                  <li>Use your configured cancel shortcut while the mouse is locked. A message already being sent finishes before the remaining countdown stops and the cursor is restored.</li>
                 </ul>
               </div>
             </div>
@@ -395,6 +399,8 @@
                   <li>
                     Configure shortcuts, opacity, headers, and silent rescans.
                   </li>
+                  <li>Click the countdown-cancel shortcut field and press your preferred key combination. Use <b>Clear</b> to disable it. If a shortcut is invalid or unavailable, your previous shortcut stays active.</li>
+                  <li>Avoid keys already used by Windows or 3DX: <code>Ctrl+Esc</code> can open the Windows Start menu and <code>Esc</code> can open the 3DX menu.</li>
                   <li>Create or restore a portable local backup.</li>
                   <li>Check for verified installer updates inside the app.</li>
                 </ul>
@@ -409,6 +415,9 @@
                 <label
                   >Overlay shortcut<span class="has-chevron"
                     >Ctrl + Shift + O</span
+                  ></label
+                ><label
+                  >Cancel countdown shortcut<span>F8 <button>Clear</button></span
                   ></label
                 ><label
                   >Turn / skip opacity<span class="has-chevron"
@@ -436,7 +445,7 @@
               <section>
                 <p>
                   <b>Application updates</b
-                  ><small>Installed version: 1.0.1</small>
+                  ><small>Installed version: 1.0.4</small>
                 </p>
                 <button>Check for Updates</button>
               </section>
