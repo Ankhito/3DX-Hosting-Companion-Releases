@@ -1,5 +1,24 @@
 # Patch Notes
 
+## 1.0.4 — Hosting Reliability Fixes
+Released November 27, 2026
+
+### Fixed
+
+- Chat scans now distinguish the actual message field from similar words in chat history and unrelated purple panels.
+- Resizing 3DX or changing display scale refreshes the saved chat position before the next send.
+- Countdown-cancel shortcuts now support named keys correctly. Invalid or unavailable shortcuts leave the previous binding in place, and **Clear** disables the shortcut.
+- Cancelling a skip countdown finishes any message already being sent, then stops the remaining countdown and restores the cursor.
+- Editing a linked outcome found through search no longer removes its parent link.
+- Linked phrases stay in the same folder and cannot be nested inside another outcome or linked to themselves. Older nested phrases remain visible so they can be repaired.
+- Text commands stop if you switch away from the selected 3DX window before replacement completes.
+- The account picker handles game windows closing during selection and keeps the chosen account pinned safely when more windows open.
+- Saving Settings no longer overwrites newer overlay positions, host messages, or custom statuses changed elsewhere in the app.
+
+### Testing notice
+
+- The live 3DX sending, detection, and shortcut changes still need player testing. Please report any missed sends, incorrect chat clicks, or countdown-cancel problems.
+
 ## 1.0.3 — Chat Click Position Adjustment
 Released August 22, 2026
 
